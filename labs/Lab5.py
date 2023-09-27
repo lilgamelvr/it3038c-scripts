@@ -1,3 +1,5 @@
+# Problem: Take a birthday date input and calculate how many seconds old you are
+
 import datetime
 
 while True:
