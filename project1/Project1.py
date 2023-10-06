@@ -9,7 +9,7 @@ def calculator():
     If you want multiplication, enter *
     If you want division, enter /
     ''')  # this allows the user to enter an operator, and tells the user what the correct operators are,
-    # and goes back if an invalid item is entered
+    # and goes back if an invalid item is entered using keyboard inputs
 
     num1 = int(input('Enter your first number: '))  # the number that will be affected by the second number and operator
     num2 = int(input('Enter your second number: '))  # the number that will affect the first number
@@ -38,7 +38,7 @@ def calculator():
 def another():
     another_equation = input('''
     Equation successful, Would you like to do another equation (Y for yes, N for No):
-    ''')  # Asks if you want to do another equation, and gives you a choice of Yes or No
+    ''')  # Asks if you want to do another equation, and gives you a choice of Yes or No using keyboard inputs
 
     if another_equation.upper() == 'Y':
         calculator()  # Calls calculator()
