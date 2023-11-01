@@ -58,8 +58,7 @@ def calculator():
     elif options == '%':
         print('{} % {} = '.format(num1, num2))  # prints the equation to console
         f.write('{} % {} = '.format(num1, num2))
-        print(
-            num1 % num2)  # takes the reminder of the division of the first number by the second number and prints it to console
+        print(num1 % num2)  # takes the reminder of the division of the first number by the second number and prints it to console
         f.write(str(num1 % num2) + '\n')
         another()  # calls another()
     else:
