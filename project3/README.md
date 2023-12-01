@@ -1,5 +1,9 @@
 # **How To Use Calculator**
 
+This is a calculator made using python from https://www.digitalocean.com/community/tutorials/how-to-make-a-calculator-program-in-python-3
+I have modifed it to increase functionality
+I think this can be useful because it is simple to use, and it has a text file for the equations so you can go back to previous equations
+
 **1.** Select a operator or method
 
 Just type in an operator or method for the calculator to use
